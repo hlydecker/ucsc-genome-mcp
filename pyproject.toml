@@ -1,5 +1,5 @@
 [project]
-name = "ucsc-genome-mcp-server"
+name = "ucsc-genome-mcp"
 version = "0.1.0"
 description = "MCP server for interacting with the UCSC Genome Browser API"
 readme = "README.md"
@@ -10,7 +10,7 @@ dependencies = [
 ]
 
 [project.scripts]
-ucsc-genome-mcp = "ucsc_genome_mcp_server:main"
+ucsc-genome-mcp = "ucsc_genome_mcp:main"
 
 [build-system]
 requires = ["hatchling"]
