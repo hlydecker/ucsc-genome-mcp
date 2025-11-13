@@ -1,3 +1,6 @@
+[tool.hatch.build.targets.wheel]
+only-include = ["ucsc_genome_mcp.py"]
+
 [project]
 name = "ucsc-genome-mcp"
 version = "0.1.0"
