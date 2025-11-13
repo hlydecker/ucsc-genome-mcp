@@ -63,9 +63,18 @@ Add this to your Claude Desktop configuration file:
 {
   "mcpServers": {
     "ucsc-genome-browser": {
-      "command": "python",
-      "args": ["/path/to/ucsc_genome_mcp_server.py"]
-    }
+      "command": "/Users/You/.local/bin/uv",
+      "args": [
+        "--directory",
+        "/Users/Path/To/Repository/ucsc-genome-mcp",
+        "run",
+        "ucsc-genome-mcp.py"
+      ],
+      "env": {},
+      "metadata": {
+        "description": "UCSC Genome Browser API",
+        "version": "1.0.0"        
+      }
   }
 }
 ```
